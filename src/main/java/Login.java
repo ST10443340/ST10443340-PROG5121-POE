@@ -80,7 +80,8 @@ public class Login {
 
     // Main method with Scanner for user input
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner;
+        scanner = new Scanner(System.in);
 
         // Ask user for first name and last name
         System.out.println("Please enter your first name:");
